@@ -1,6 +1,7 @@
 package de.fritzist.test;
 
 import de.fritzist.test.commands.*;
+import de.fritzist.test.events.GuiEvent;
 import de.fritzist.test.events.PlayerMove;
 import de.fritzist.test.events.TpBowEvent;
 import de.fritzist.test.listener.*;
@@ -32,6 +33,7 @@ public final class Main extends JavaPlugin {
         getCommand("fart").setExecutor((new FartCommand()));
         getCommand("fly").setExecutor((new FlyCommand(this)));
         getCommand("tpbow").setExecutor(new TpBowCommand(this));
+        getCommand("quickMenu").setExecutor((new QuickMenuCommand()));
         //getCommand("print->config").setExecutor(new print->config);
         getServer().getPluginManager().registerEvents(new XPBottleBreakListener(), this);
         getServer().getPluginManager().registerEvents((new ShearSheepListener()), this);
@@ -41,6 +43,7 @@ public final class Main extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new PlayerMove(), this);
         getServer().getPluginManager().registerEvents(new SpawnListener(this), this);
         getServer().getPluginManager().registerEvents(new TpBowEvent(this),this);
+        getServer().getPluginManager().registerEvents(new GuiEvent(),this);
 
         getConfig().options().copyDefaults();
         saveDefaultConfig();

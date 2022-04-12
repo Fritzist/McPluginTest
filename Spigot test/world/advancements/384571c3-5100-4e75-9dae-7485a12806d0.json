@@ -305,6 +305,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_beef": "2022-04-12 17:51:48 +0200",
       "porkchop": "2022-03-27 21:29:44 +0200"
     },
     "done": false
@@ -312,6 +313,12 @@
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
       "has_stick": "2022-02-05 12:25:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2022-04-12 17:52:51 +0200"
     },
     "done": true
   },
