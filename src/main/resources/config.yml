@@ -1,0 +1,20 @@
+Food: 'Kartoffel'
+Number: 69
+Boolean: true
+Foodlist:
+  - 'Pizza'
+  - 'Orange'
+  - 'Traube'
+
+spawn:
+  x:
+  y:
+  z:
+
+off-message: '§4You can no longer fly.'
+
+on-message: '§BYou can fly now. Be free!'
+
+bow-name: '&f&eTeleport&aBow'
+bow-description: '&5This bow teleports you to the point, where the arrow lands'
+teleport-message: '&4Swoosh!'

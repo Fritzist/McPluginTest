@@ -1,0 +1,76 @@
+name: LilHehe
+version: ${project.version}
+main: de.fritzist.test.Main
+api-version: 1.17
+authors: [ Fritzist ]
+description: weiß net
+
+commands:
+  gm:
+   description: setze deinen Gamemode um. 1 = Creative 2 = Adventure 3 = Spectator und 0 = survival
+   usage: /<command>
+
+  troll:
+    description: Trolle jemanden erst seinen Namen dann Creeper Herobrine oder TnT
+    usage: /<command>
+
+  die:
+    description: Bringt dich selber um oder dein Ziel also der /kill command aber von mir lol
+    usage: /<command>
+
+  feed:
+    description: Füttert dich LOL
+    usage: /<command>
+
+  god:
+    description: Wirst unsterblich yee
+    usage: /<command>
+
+  heal:
+    description: Heilt dich LOL
+    usage: /<command>
+
+  gxp:
+    description: Gibt dir level um Sachen zu enchanten
+    usage: /<command>
+
+  fly:
+    description: Lässt dich fliegen
+    usage: /<command>
+
+
+  printconfig:
+    description: Test
+    usage: /<command>
+
+  setFood:
+    description: Ändere ein Command
+    usage: /<command>
+
+  me:
+    description: Gibt etwas aus ohne den NutzeNamen zu sagen
+    usage: /<command>
+
+  rocket:
+    description: Lässt eine Rakete erscheinen
+    usage: /<command>
+
+  vault:
+    description: Ist ein Lager
+    usage: /<command>
+
+  setspawn:
+    description: Tp dich zu deinem Spawn
+    usage: /<command>
+
+  spawn:
+    description: Tp dich zum spawn
+    usage: /<command>
+
+  fart:
+    description: Fart oops
+    usage: /<command>
+
+  tpbow:
+    description: Ein Bogen der dich Teleportieren kann
+    usage: /<command>

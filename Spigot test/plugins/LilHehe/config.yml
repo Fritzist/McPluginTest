@@ -1,0 +1,15 @@
+Food: Kartoffel
+Number: 69
+Boolean: true
+FoodList:
+- Pizza
+- Orange
+- Traube
+spawn:
+  ==: org.bukkit.Location
+  world: world
+  x: -263.6034798150832
+  y: 100.0
+  z: -0.3079968439471391
+  pitch: 90.0
+  yaw: 172.33347
