@@ -41,7 +41,6 @@ public class GuiEvent implements Listener {
 
             e.setCancelled(true);
 
-
         }
     }
 }
